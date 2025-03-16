@@ -1,5 +1,7 @@
 package chap01
 
 fun main() {
-    println("hello world")
+    println("start")
+    throw Exception("test exception")
+    println("end")
 }
