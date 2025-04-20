@@ -12,4 +12,5 @@ fun main() = runBlocking<Unit> { // 실행 중 상태의 Job 생성
     }
     job.cancelAndJoin() // 코루틴 취소 요청 + 취소가 완료될 때까지 대기
     printJobState(job)
+
 }
